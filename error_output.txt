@@ -1,0 +1,39 @@
+
+
+
+setting
+1. Faves array item has expected properties
+2. Faves properties are of the correct type
+
+1.  AssertionError  Faves array item has expected properties               
+                     Target cannot be null or undefined.                    
+                     at assertion:3 in test-script                          
+                     inside "setting"                                       
+                                                                            
+ 2.  TypeError       Faves properties are of the correct type               
+                     Cannot read properties of undefined (reading 'faveId') 
+                     at assertion:4 in test-script                          
+                     inside "setting"                                       
+
+
+adding_cart
+1. Response time is less than 500ms
+
+1.  AssertionError  Response time is less than 500ms 
+                     expected 607 to be below 500     
+                     at assertion:1 in test-script    
+                     inside "adding_cart"             
+
+
+
+
+
+FAQ
+1. All topics are valid
+
+1.  AssertionError  All topics are valid                                              
+                     expected [ 'Getting Started', 'Payment', …(4) ] to include 'test' 
+                     at assertion:6 in test-script                                     
+                     inside "FAQ"                                                      
+
+
